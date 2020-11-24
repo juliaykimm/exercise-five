@@ -1,6 +1,6 @@
 import React from "react";
 
-function Header() {
+function Header({ loggedIn, LogoutFunction }) {
   return (
     <header>
       <nav>
