@@ -1,10 +1,5 @@
 import React, { useState, useEffect } from "react";
-import {
-  Route,
-  BrowserRouter as Router,
-  ReDirect,
-  Redirect,
-} from "react-router-dom";
+import { Route, BrowserRouter as Router, Redirect } from "react-router-dom";
 import firebase from "firebase/app";
 import "firebase/auth";
 // Styles
